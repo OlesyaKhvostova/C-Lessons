@@ -1,6 +1,6 @@
 ﻿int CalcPower(int value, int power)
 {
-    int result = value;
+    int result = power == 0 ? 1 : value;
     for(int i = 1; i < power; i++)
     {
         result *= value;
