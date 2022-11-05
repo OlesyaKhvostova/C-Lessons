@@ -8,3 +8,7 @@ Console.WriteLine("Введите логическое значение true fal
 bool valueBl = Convert.ToBoolean(Console.ReadLine());
 Console.WriteLine($"целочисленное число = {value} вещественное значение = {valueDbl}");
 Console.WriteLine("строка = {0} логическое значение = {1}", valueStr, valueBl);
+int resultInt = value + Convert.ToInt32(valueDbl);
+double resultDbl = valueDbl + value;
+Console.WriteLine("целочисленный результат = {0} вещественное значение = {1}", resultInt, resultDbl);
+Console.WriteLine("строка = {0}", valueBl == true ?"истина":"ложь");
